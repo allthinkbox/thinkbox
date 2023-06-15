@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>thinkbox</title>
     <link rel="stylesheet" href="navegacao.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo-thinkbox.png" type="image/x-icon">
 </head>
 <body>
-    <div class="action">
+    <header class="navegacao-desktop">
+        <img src="imagens/logo-thinkbox.svg" alt="Logo thinkbox">
+        <ul class="ul-desktop">
+            <li class="li-desktop"><a class="a-desktop" href="#">Voltar para TRG</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Desafios e Dificuldades</a></li>
+        </ul>
+    </header>
+    <img class="logo-thinkbox-mobile" src="imagens/logo-thinkbox.svg" alt="Logo thinkbox">
+    <div class="action" onclick="actionToggle();">
         <span>+</span>
         <ul>
-            <li><img src="imagens/sobre.svg" alt="Sobre nós">Sobre nós</li>
-            <li><img src="imagens/desafios.svg" alt="Desafios e Dificuldades">Desafios e Dificuldades</li>
-            <li><img src="imagens/logo-trg.svg" alt="Logo TRG">Voltar para TRG</li>
+            <li><img src="imagens/sobre.svg" alt="Sobre nós"><a href="#">Sobre nós</a></li>
+            <li><img src="imagens/desafios.svg" alt="Desafios e Dificuldades"><a href="#">Desafios e Dificuldades</a></li>
+            <li><img src="imagens/logo-trg.svg" alt="Logo TRG"><a href="#">Voltar para TRG</a></li>
         </ul>
     </div>
+    <main>
+        <h1>Proposta e necessidade</h1>
+    </main>
+    <script  type="text/javascript">
+        function actionToggle(){
+            var action = document.querySelector('.action');
+            action.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
