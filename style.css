@@ -20,7 +20,7 @@
     --branco: #ffffff;
     --laranja: #D9AD29;
     --azul-claro: #0F808C;
-    --azul-escuro: #1E3040;
+    --azul-escuro: #131B26;
     --roxo: #733C64;
     --verde: #008000;
     --cinza: #484848;
@@ -32,6 +32,10 @@
 }
 
 @media (min-width: 320px){
+    main{
+        margin-bottom: 50px;
+    }
+
     h1{
         color: var(--roxo);
         font-family: var(--fonte-padrao);
@@ -55,6 +59,74 @@
         text-align: justify;
         margin: 0px 20px 25px 20px;
         line-height: 30px;
+    }
+
+    .sobre-nos{
+        background-color: var(--azul-claro);
+        width: 320px;
+        height: 500px;
+        margin: 0px auto 50px auto;
+    }
+
+    .desafios{
+        width: 260px;
+        margin: auto;
+        background-color: #1E3040;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+    }
+
+    .desafios h2{
+        color: var(--laranja);
+        font-family: var(--fonte-padrao);
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .desafios p{
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 1em;
+        text-align: justify;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .dificuldades{
+        width: 260px;
+        margin: auto;
+        background-color: var(--laranja);
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 100px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+    }
+
+    .dificuldades h2{
+        color: var(--roxo);
+        font-family: var(--fonte-padrao);
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dificuldades p{
+        font-family: var(--fonte-padrao);
+        font-size: 1em;
+        text-align: justify;
+        list-style: 30px;
+        margin-bottom: 10px;
+    }
+
+    footer p{
+        color: var(--azul-claro);
+        font-family: var(--fonte-destaque);
+        font-size: 1em;
+        text-align: center;
+        padding-bottom: 25px;
     }
 }
 
