@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,10 @@
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/slider.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="imagens/logo-thinkbox.png" type="image/x-icon">
 </head>
+
 <body>
     <!--NAVEGAÇÃO FLUTUANTE MOBILE E STATIC DESKTOP-->
     <header class="navegacao-desktop">
@@ -29,7 +28,8 @@
         <span>+</span>
         <ul>
             <li><img src="imagens/sobre.svg" alt="Sobre nós"><a href="#">Sobre nós</a></li>
-            <li><img src="imagens/desafios.svg" alt="Desafios e Dificuldades"><a href="#">Desafios e Dificuldades</a></li>
+            <li><img src="imagens/desafios.svg" alt="Desafios e Dificuldades"><a href="#">Desafios e Dificuldades</a>
+            </li>
             <li><img src="imagens/logo-trg.svg" alt="Logo TRG"><a href="#">Voltar para TRG</a></li>
         </ul>
     </div>
@@ -39,31 +39,82 @@
         <div class="container-main">
             <img src="imagens/imagem.png" alt="">
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit commodi ex nam sapiente iste accusantium esse perspiciatis? Ad temporibus laudantium nam eligendi deserunt suscipit tenetur distinctio fuga accusantium nisi.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique exercitationem, ipsa distinctio, atque ducimus consequatur laboriosam minus sapiente aut cum nisi cumque fugit. Eos praesentium nostrum quae laboriosam optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vitae facilis tempora sequi adipisci dolores. Nemo, voluptates doloribus voluptate pariatur sit, maxime dolorum error molestiae aliquam quis culpa velit totam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit commodi ex nam sapiente iste
+                    accusantium esse perspiciatis? Ad temporibus laudantium nam eligendi deserunt suscipit tenetur
+                    distinctio fuga accusantium nisi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique exercitationem, ipsa
+                    distinctio, atque ducimus consequatur laboriosam minus sapiente aut cum nisi cumque fugit. Eos
+                    praesentium nostrum quae laboriosam optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime vitae facilis tempora sequi adipisci dolores. Nemo, voluptates doloribus voluptate pariatur
+                    sit, maxime dolorum error molestiae aliquam quis culpa velit totam.</p>
             </div>
         </div>
     </main>
-    <section class="sobre-nos">
+
+    <section class="slider">
+
+        <div class="slides">
+            <!--Radios buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <!--Fim Radios buttons-->
+
+            <!--Slide images-->
+            <div class="slide-first">
+                <img src="imagens/caua-sena.svg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="imagens/henrique-cardoso.svg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="imagens/marcos-camargo.svg" alt="Imagem 3">
+            </div>
+            <!--Fim Slide images-->
+
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+            <!--Fim Navigation auto-->
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
     </section>
+    
     <section class="desafios-dificuldades">
         <h1>Desafios e dificuldades</h1>
         <div class="desafios">
             <h2>Desafios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, temporibus. Laudantium aliquid quisquam laboriosam minus, quis cumque excepturi culpa vel nobis atque exercitationem et adipisci quasi accusamus quibusdam reprehenderit tenetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta expedita impedit consectetur itaque. Eligendi porro quo magnam nihil et, doloremque, vel vitae laborum veritatis repellat doloribus ipsam. Velit, quis dolore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, temporibus. Laudantium aliquid quisquam
+                laboriosam minus, quis cumque excepturi culpa vel nobis atque exercitationem et adipisci quasi accusamus
+                quibusdam reprehenderit tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta expedita impedit consectetur itaque.
+                Eligendi porro quo magnam nihil et, doloremque, vel vitae laborum veritatis repellat doloribus ipsam.
+                Velit, quis dolore.</p>
         </div>
         <div class="dificuldades">
             <h2>Dificuldades</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolor ratione. Consectetur laudantium deserunt debitis dolor. Voluptates vero dolor illo, esse aut recusandae? Corporis, distinctio dicta nihil repellat obcaecati mollitia.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nemo beatae eligendi earum delectus! Quod accusantium laborum aliquam adipisci. Placeat minima reprehenderit eveniet ipsum rem. Nobis non dignissimos cupiditate beatae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolor ratione. Consectetur laudantium
+                deserunt debitis dolor. Voluptates vero dolor illo, esse aut recusandae? Corporis, distinctio dicta
+                nihil repellat obcaecati mollitia.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nemo beatae eligendi earum delectus! Quod
+                accusantium laborum aliquam adipisci. Placeat minima reprehenderit eveniet ipsum rem. Nobis non
+                dignissimos cupiditate beatae.</p>
         </div>
     </section>
     <footer>
         <p>thinkbox - 2023</p>
     </footer>
+    <script src="js/slider.js"></script>
     <script src="js/button_floor.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="js/carousel.js"></script>
 </body>
+
 </html>

@@ -60,12 +60,9 @@
         margin: 0px 20px 25px 20px;
         line-height: 30px;
     }
-
-    .sobre-nos{
-        background-color: var(--azul-claro);
-        width: 320px;
-        height: 500px;
-        margin: 0px auto 50px auto;
+    
+    .slider{
+        margin: auto;
     }
 
     .desafios{
