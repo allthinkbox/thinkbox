@@ -32,6 +32,15 @@
 }
 
 @media (min-width: 320px){
+
+    .container-main-1025{
+        display: none;
+    }
+
+    .sobre-nos{
+        display: none;
+    }
+
     main{
         margin-bottom: 50px;
     }
@@ -54,6 +63,14 @@
     }
 
     .container-main p{
+        color: white;
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+        margin: 0px 20px 25px 20px;
+        line-height: 30px;
+    }
+
+    #p-unico{
         color: white;
         font-family: var(--fonte-padrao);
         text-align: justify;
@@ -257,6 +274,11 @@
         margin: 0px 60px 50px 60px;
         line-height: 35px;
     }
+    
+    #p-unico{
+        margin: 0px 60px 50px 60px;
+        line-height: 35px;
+    }
 
     .slider{
         height: 485px;
@@ -328,6 +350,11 @@
         line-height: 40px;
     }
 
+    #p-unico{
+        margin: 0px 85px 60px 85px;
+        line-height: 40px;
+    }
+
     .slide .img-integrante{
         width: 40%;
     }
@@ -374,12 +401,230 @@
 }
 
 @media (min-width: 801px){
-    
-    
+
+    main{
+        margin-bottom: 110px;
+    }
+
+    h1{
+        border: none;
+        margin-bottom: 70px;
+    }
+
+    .container-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 45px;
+        padding: 0 50px;
+    }
+
+    .container-main p{
+        margin: 0px 0px 0px 0px;
+    }
+
+    #p-unico{
+        color: white;
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+        margin: 45px 35px 0px 35px;
+        line-height: 30px;
+    }
+
+    .slider{
+        margin-bottom: 110px;
+        padding: 50px 0;
+    }
+
+    .slide .img-integrante{
+        width: 30%;
+    }
+
+    .desafios-dificuldades-cards{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .desafios{
+        width: 260px;
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 100px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .desafios h2{
+        color: var(--laranja);
+        font-family: var(--fonte-padrao);
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .desafios p{
+        color: white;
+        font-family: var(--fonte-padrao);
+        font-size: 1em;
+        text-align: justify;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .dificuldades{
+        width: 260px;
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 100px;
+        position: relative;
+        margin-top: 240px;
+        margin-left: -16px;
+        z-index: 0;
+    }
+
+    .dificuldades h2{
+        color: var(--roxo);
+        font-family: var(--fonte-padrao);
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dificuldades p{
+        font-family: var(--fonte-padrao);
+        font-size: 1em;
+        text-align: justify;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 950px){
+    .slide .img-integrante{
+        width: 25%;
+    }
 }
 
 @media (min-width: 1025px){
+
+    .container-main{
+        display: none;
+    }
+
+    .container-main p{
+        display: none;
+    }
+
+    #p-unico{
+        display: none;
+    }
+
+    .container-main-1025{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 45px;
+        padding: 0 80px;
+    }
+
+    .container-main-1025 p{
+        color: white;
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .slider{
+        display: none;
+    }
     
+    .sobre-nos{
+        display: block;
+        background-color: var(--azul-claro);
+        padding: 100px 20px;
+        margin-bottom: 110px;
+    }
+
+    .sobre-nos h1{
+        color: var(--laranja);
+        font-family: var(--fonte-destaque);
+        font-weight: normal;
+    }
+
+    .container-equipe{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cards{
+        margin: 0 20px;
+    }
+
+    .cards > img{
+        display: block;
+        margin: auto;
+    }
+
+    .cards p{
+        color: white;
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .cards #nome-integrante{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .container-redes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .desafios{
+        width: 330px;
+        padding: 30px;
+    }
+
+    .desafios h2{
+        font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+
+    .desafios p{
+        font-size: 1.1em;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .dificuldades{
+        width: 330px;
+        padding: 30px;
+        margin-bottom: 150px;
+    }
+
+    .dificuldades h2{
+        font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+
+    .dificuldades p{
+        font-size: 1.1em;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    footer p{
+        padding-bottom: 25px;
+    }
+
 }
 
 @media (min-width: 1251px){

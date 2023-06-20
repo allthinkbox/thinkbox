@@ -159,6 +159,7 @@
         justify-content: space-around;
         align-items: center;
         padding: 40px 50px;
+        margin-bottom: 70px;
     }
 
     .navegacao-desktop ul{
@@ -198,7 +199,7 @@
 
     .navegacao-desktop ul li a{
         font-family: var(--fonte-padrao);
-        font-size: 1.5em;
+        font-size: 1.3em;
         padding: 0px 20px;
         background-color: var(--azul-escuro);
         color: white;
