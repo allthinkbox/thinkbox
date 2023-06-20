@@ -102,8 +102,7 @@
 
     li a{
         text-decoration: none;
-        color: #484848;
-        background-color: white;
+        color: white;
         font-family: var(--fonte-padrao);
         padding: 0px 5px;
         border-radius: 5px;
@@ -132,6 +131,17 @@
 @media (min-width: 480px) {
     .action ul{
         min-width: 250px;
+    }
+}
+
+@media (min-width: 700px){
+    .action ul{
+        min-width: 290px;
+    }
+
+    .action{
+        width: 60px;
+        height: 60px;
     }
 }
 

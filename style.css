@@ -75,6 +75,7 @@
         font-family: var(--fonte-destaque);
         font-size: 1em;
         border: none;
+        font-weight: normal;
     }
 
     .slides{
@@ -224,7 +225,7 @@
         font-family: var(--fonte-padrao);
         font-size: 1em;
         text-align: justify;
-        list-style: 30px;
+        line-height: 30px;
         margin-bottom: 10px;
     }
 
@@ -238,14 +239,142 @@
 }
 
 @media (min-width: 480px){
-    
+    .logo-thinkbox-mobile{
+        margin-bottom: 70px;
+    }
+
+    h1{
+        font-size: 1.8em;
+        border-bottom: 2px dotted white;
+        margin: 0px 60px 70px 60px;
+    }
+
+    .container-main{
+        row-gap: 70px;
+    }
+
+    .container-main p{
+        margin: 0px 60px 50px 60px;
+        line-height: 35px;
+    }
+
+    .slider{
+        height: 485px;
+        padding: 30px 0;
+    }
+
+    .slider h1{
+        font-size: 1.5em;
+    }
+
+    .slide .img-integrante{
+        width: 50%;
+    }
+
+    .desafios{
+        width: 350px;
+        padding: 30px;
+        margin-bottom: 70px;
+    }
+
+    .desafios h2{
+        font-size: 1.65em;
+        margin-bottom: 30px;
+    }
+
+    .desafios p{
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .dificuldades{
+        width: 350px;
+        padding: 30px;
+        margin-bottom: 120px;
+    }
+
+    .dificuldades h2{
+        font-size: 1.65em;
+        margin-bottom: 30px;
+    }
+
+    .dificuldades p{
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    footer p{
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 540px){
+    .slide .img-integrante{
+        width: 45%;
+    }
 }
 
 @media (min-width: 600px){
-    
+    .logo-thinkbox-mobile{
+        margin-bottom: 90px;
+    }
+
+    h1{
+        margin: 0px 85px 70px 85px;
+    }
+
+    .container-main p{
+        margin: 0px 85px 60px 85px;
+        line-height: 40px;
+    }
+
+    .slide .img-integrante{
+        width: 40%;
+    }
+
+    .desafios{
+        width: 400px;
+        padding: 40px;
+        margin-bottom: 90px;
+    }
+
+    .desafios h2{
+        margin-bottom: 40px;
+    }
+
+    .desafios p{
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .dificuldades{
+        width: 400px;
+        padding: 40px;
+        margin-bottom: 140px;
+    }
+
+    .dificuldades h2{
+        margin-bottom: 40px;
+    }
+
+    .dificuldades p{
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    footer p{
+        padding-bottom: 35px;
+    }
+}
+
+@media (min-width: 700px){
+    .slide .img-integrante{
+        width: 35%;
+    }
 }
 
 @media (min-width: 801px){
+    
     
 }
 
