@@ -208,13 +208,13 @@
 
 @media (min-width: 1251px){
     .navegacao-desktop{
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .navegacao-desktop ul li a{
         font-family: var(--fonte-padrao);
-        font-size: 1.15em;
-        padding: 0px 20px;
+        font-size: 1.1em;
+        padding: 0px 10px;
         background-color: var(--azul-escuro);
         color: white;
         transition-duration: 0.3s;
