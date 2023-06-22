@@ -189,7 +189,7 @@
     .manual-navigation{
         position: absolute;
         width: 100%;
-        margin-top: 215px;
+        margin-top: 175px;
         display: flex;
         justify-content: center;
     }
@@ -233,7 +233,7 @@
     .navigation-auto{
         position: absolute;
         width: 100%;
-        margin-top: 501px;
+        margin-top: 461px;
         display: flex;
         justify-content: center;
     }
