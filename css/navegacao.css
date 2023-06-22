@@ -146,6 +146,11 @@
 }
 
 @media (min-width: 801px){
+    
+    .action{
+        display: none;
+    }
+
     .logo-thinkbox-mobile{
         display: none;
     }
@@ -154,7 +159,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 40px 20px;
+        padding: 40px 10px;
         margin-bottom: 70px;
     }
 
@@ -167,7 +172,7 @@
         background-color: var(--azul-escuro);
         color: white;
         padding: 0px 10px;
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
     .navegacao-desktop ul li a:hover{
@@ -178,7 +183,7 @@
     }
 }
 
-@media (min-width: 896px){
+@media (min-width: 840px){
     .action{
         display: none;
     }
@@ -197,13 +202,35 @@
 
     .navegacao-desktop ul li a{
         font-family: var(--fonte-padrao);
-        font-size: 1em;
+        font-size: 0.7em;
         padding: 0px 10px;
         background-color: var(--azul-escuro);
         color: white;
         transition-duration: 0.3s;
     }
 
+}
+
+@media (min-width: 940px){
+    .navegacao-desktop ul li a{
+        font-family: var(--fonte-padrao);
+        font-size: 0.75em;
+        padding: 0px 10px;
+        background-color: var(--azul-escuro);
+        color: white;
+        transition-duration: 0.3s;
+    }
+}
+
+@media (min-width: 1025px){
+    .navegacao-desktop ul li a{
+        font-family: var(--fonte-padrao);
+        font-size: 0.85em;
+        padding: 0px 10px;
+        background-color: var(--azul-escuro);
+        color: white;
+        transition-duration: 0.3s;
+    }
 }
 
 @media (min-width: 1251px){
@@ -215,6 +242,32 @@
         font-family: var(--fonte-padrao);
         font-size: 1.1em;
         padding: 0px 10px;
+        background-color: var(--azul-escuro);
+        color: white;
+        transition-duration: 0.3s;
+    }
+}
+
+@media (min-width: 1651px){
+    .navegacao-desktop{
+        padding: 40px 90px;
+    }
+
+    .navegacao-desktop ul li a{
+        font-family: var(--fonte-padrao);
+        font-size: 1.3em;
+        padding: 0px 10px;
+        background-color: var(--azul-escuro);
+        color: white;
+        transition-duration: 0.3s;
+    }
+}
+
+@media (min-width: 1951px){
+    .navegacao-desktop ul li a{
+        font-family: var(--fonte-padrao);
+        font-size: 1.3em;
+        padding: 0px 30px;
         background-color: var(--azul-escuro);
         color: white;
         transition-duration: 0.3s;
