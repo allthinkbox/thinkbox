@@ -33,6 +33,12 @@
 
 @media (min-width: 320px){
 
+    .img-grupo{
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
     .p-unico{
         display: none;
     }
@@ -755,6 +761,10 @@
         font-size: 1.1em;
         line-height: 35px;
         margin-bottom: 15px;
+    }
+
+    .img-grupo{
+        height: 400px;
     }
 
 }
